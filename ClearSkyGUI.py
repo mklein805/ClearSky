@@ -28,4 +28,4 @@ weather = sky.getForecast(loc)
 forecast = "\n\n".join(weather)
 
 #Displays forecast
-sg.popup(forecast)
+sg.popup(forecast, title = 'Forecast for '+loc)
