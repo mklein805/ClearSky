@@ -93,6 +93,7 @@ class ClearSky:
             nightFor.append(nightSky)
         
         #Prints forecast
-        print(*nightFor, sep = '\n\n')
+        return nightFor
+    
         
         
