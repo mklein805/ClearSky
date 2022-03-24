@@ -1,6 +1,6 @@
 '''
 ClearSky
-Version 1
+Version 2
 Created by Marissa Klein, Wellesley College 2022
 Intended use is getting evening forecast for the next week
 '''
