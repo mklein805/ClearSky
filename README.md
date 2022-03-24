@@ -15,4 +15,4 @@ sky.getForecast('Wellesley, MA')
 First, initialize a ClearSky object and then call getForecast. getForecast takes a string location and then pulls from the National Weather Service to find the forecast for the coming nights.
 
 # How to Use ClearSkyGUI
-This is the graphical interface counterpart to ClearSky. It uses PySimpelGUI and functions exactly the same, but instead of having to run a script it is an easy to use interface.
+This is the graphical interface counterpart to ClearSky. It uses PySimpleGUI and functions exactly the same, but instead of having to run a script it is an easy to use interface.
