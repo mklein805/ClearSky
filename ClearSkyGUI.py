@@ -32,25 +32,3 @@ while True:
         window['-TEXT-'].update(forecast)
 
 window.close()
-        
-    
-    
-
-
-
-'''
-window = sg.Window('ClearSky', layout)
-event, values = window.read()
-window.close()
-
-#Read window data
-loc = values[0]
-
-#Gets the forecast
-sky = ClearSky()
-weather = sky.getForecast(loc)
-forecast = "\n\n".join(weather)
-
-#Displays forecast
-sg.popup(forecast, title = 'Forecast for '+loc)
-'''
